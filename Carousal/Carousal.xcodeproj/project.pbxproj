@@ -13,6 +13,8 @@
 		DEA9B5992B29EA200074412E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5982B29EA200074412E /* Assets.xcassets */; };
 		DEA9B59C2B29EA200074412E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */; };
 		DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5A22B29EAB80074412E /* CarousalView.swift */; };
+		DED149722B2C9125001560B3 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1496F2B2C9125001560B3 /* Gesture.swift */; };
+		DED149732B2C9125001560B3 /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED149712B2C9125001560B3 /* ScrollTransitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		DEA9B5982B29EA200074412E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEA9B5A22B29EAB80074412E /* CarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalView.swift; sourceTree = "<group>"; };
+		DED1496F2B2C9125001560B3 /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		DED149712B2C9125001560B3 /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,11 @@
 		DEA9B5932B29EA1E0074412E /* Carousal */ = {
 			isa = PBXGroup;
 			children = (
+				DED149742B2C912A001560B3 /* Carousal */,
+				DED1496E2B2C9125001560B3 /* Gestures */,
+				DED149702B2C9125001560B3 /* ScrollTransitions */,
 				DEA9B5942B29EA1E0074412E /* CarousalApp.swift */,
 				DEA9B5962B29EA1E0074412E /* ContentView.swift */,
-				DEA9B5A22B29EAB80074412E /* CarousalView.swift */,
-				DE3CE5F62B2A805B0087181B /* CarousalCell.swift */,
 				DEA9B5982B29EA200074412E /* Assets.xcassets */,
 				DEA9B59A2B29EA200074412E /* Preview Content */,
 			);
@@ -71,6 +76,31 @@
 				DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DED1496E2B2C9125001560B3 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				DED1496F2B2C9125001560B3 /* Gesture.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		DED149702B2C9125001560B3 /* ScrollTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				DED149712B2C9125001560B3 /* ScrollTransitions.swift */,
+			);
+			path = ScrollTransitions;
+			sourceTree = "<group>";
+		};
+		DED149742B2C912A001560B3 /* Carousal */ = {
+			isa = PBXGroup;
+			children = (
+				DEA9B5A22B29EAB80074412E /* CarousalView.swift */,
+				DE3CE5F62B2A805B0087181B /* CarousalCell.swift */,
+			);
+			path = Carousal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +175,10 @@
 			files = (
 				DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */,
 				DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */,
+				DED149722B2C9125001560B3 /* Gesture.swift in Sources */,
 				DEA9B5952B29EA1E0074412E /* CarousalApp.swift in Sources */,
 				DE3CE5F72B2A805B0087181B /* CarousalCell.swift in Sources */,
+				DED149732B2C9125001560B3 /* ScrollTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
