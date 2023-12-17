@@ -15,6 +15,7 @@ struct CarousalApp: App {
             RootView{
                 ToastContentView()
             }
+//            DragGesturesView()
         }
     }
 }

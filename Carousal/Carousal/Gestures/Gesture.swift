@@ -15,9 +15,6 @@ struct Gesture: View {
     }
 }
 
-#Preview {
-    Gesture()
-}
 
 struct TapGestureViews: View {
     @State private var changeColor = Color.yellow
@@ -79,12 +76,13 @@ struct DragGesturesView: View {
         Circle()
             .frame(width: 300)
             .foregroundStyle(color)
-            .gesture(DragGesture()
+            .offset(drag)
+            .gesture(
+                DragGesture()
                     .onChanged({ value in
                         withAnimation {
                             self.drag = value.translation
                         }
-                        
                     })
                     .onEnded({ _ in
                         withAnimation {
@@ -113,4 +111,11 @@ struct RotationGestureView: View {
                 )
         }
     }
+}
+
+#Preview {
+//    Gesture()
+    DragGesturesView()
+//    LongTapGestureView()
+    //    RotationGestureView()
 }

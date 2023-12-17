@@ -22,7 +22,7 @@ struct RootView<Content:View>: View {
                 window.rootViewController = rootController
                 window.isHidden = false
                 window.isUserInteractionEnabled = true
-                window.tag = 100
+                window.tag = 1009
                 overlayWindow = window
             }
         }
@@ -144,7 +144,7 @@ fileprivate struct ToastView: View {
                     let velocityY = value.velocity.height
                     if (endY + velocityY) > 100 {
                         /// removing toast
-                        removeToast()
+                        removeToast(0.5)
                     }
                 })
         )
@@ -171,19 +171,18 @@ fileprivate struct ToastView: View {
         .frame(maxWidth: size.width * 0.7)
         .transition(.offset(y: 150))
     }
-    func removeToast() {
+    func removeToast(_ duration: TimeInterval = 5) {
 //        guard !animateOut else {return}
 //        withAnimation(.snappy, completionCriteria: .logicallyComplete) {
 //            animateOut = true
 //        } completion: {
 //            removeToastItem()
 //        }
-        withAnimation(.easeInOut(duration: 5)) {
+        withAnimation(.easeInOut(duration: duration)) {
             if let delayTask {
                 delayTask.cancel()
             }
             Toast.shared.toasts.removeAll(where: {$0.id == item.id})
-
         }
     }
 //    func removeToastItem() {
@@ -201,7 +200,7 @@ struct ToastContentView: View {
                     title: "hellow",
                     symbol: "globe",
                     isUserInteractionEnabled: true,
-                    timing: .short
+                    timing: .long
                 )
             }
         }
