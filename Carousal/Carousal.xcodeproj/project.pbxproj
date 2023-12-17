@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1921662B2E7131005B8A8E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1921652B2E7131005B8A8E /* Toast.swift */; };
 		DE3CE5F72B2A805B0087181B /* CarousalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3CE5F62B2A805B0087181B /* CarousalCell.swift */; };
+		DE48FD6F2B2E69D500A7CEA4 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */; };
 		DEA9B5952B29EA1E0074412E /* CarousalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5942B29EA1E0074412E /* CarousalApp.swift */; };
 		DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5962B29EA1E0074412E /* ContentView.swift */; };
 		DEA9B5992B29EA200074412E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5982B29EA200074412E /* Assets.xcassets */; };
@@ -18,7 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE1921652B2E7131005B8A8E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DE3CE5F62B2A805B0087181B /* CarousalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalCell.swift; sourceTree = "<group>"; };
+		DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		DEA9B5912B29EA1E0074412E /* Carousal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA9B5942B29EA1E0074412E /* CarousalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalApp.swift; sourceTree = "<group>"; };
 		DEA9B5962B29EA1E0074412E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE1921642B2E712D005B8A8E /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				DE1921652B2E7131005B8A8E /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		DE48FD6D2B2E69C800A7CEA4 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */,
+			);
+			path = Tip;
+			sourceTree = "<group>";
+		};
 		DEA9B5882B29EA1E0074412E = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +79,8 @@
 		DEA9B5932B29EA1E0074412E /* Carousal */ = {
 			isa = PBXGroup;
 			children = (
+				DE1921642B2E712D005B8A8E /* Toast */,
+				DE48FD6D2B2E69C800A7CEA4 /* Tip */,
 				DED149742B2C912A001560B3 /* Carousal */,
 				DED1496E2B2C9125001560B3 /* Gestures */,
 				DED149702B2C9125001560B3 /* ScrollTransitions */,
@@ -173,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE48FD6F2B2E69D500A7CEA4 /* TipView.swift in Sources */,
+				DE1921662B2E7131005B8A8E /* Toast.swift in Sources */,
 				DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */,
 				DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */,
 				DED149722B2C9125001560B3 /* Gesture.swift in Sources */,
