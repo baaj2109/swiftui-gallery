@@ -17,6 +17,7 @@
 		DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5A22B29EAB80074412E /* CarousalView.swift */; };
 		DED149722B2C9125001560B3 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1496F2B2C9125001560B3 /* Gesture.swift */; };
 		DED149732B2C9125001560B3 /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED149712B2C9125001560B3 /* ScrollTransitions.swift */; };
+		DED89B0F2B2F2CD1005CAB0B /* RollingDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DEA9B5A22B29EAB80074412E /* CarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalView.swift; sourceTree = "<group>"; };
 		DED1496F2B2C9125001560B3 /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		DED149712B2C9125001560B3 /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
+		DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingDiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		DEA9B5932B29EA1E0074412E /* Carousal */ = {
 			isa = PBXGroup;
 			children = (
+				DED89B0D2B2F2CC1005CAB0B /* RollingDice */,
 				DE1921642B2E712D005B8A8E /* Toast */,
 				DE48FD6D2B2E69C800A7CEA4 /* Tip */,
 				DED149742B2C912A001560B3 /* Carousal */,
@@ -123,6 +126,14 @@
 				DE3CE5F62B2A805B0087181B /* CarousalCell.swift */,
 			);
 			path = Carousal;
+			sourceTree = "<group>";
+		};
+		DED89B0D2B2F2CC1005CAB0B /* RollingDice */ = {
+			isa = PBXGroup;
+			children = (
+				DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */,
+			);
+			path = RollingDice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				DE1921662B2E7131005B8A8E /* Toast.swift in Sources */,
 				DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */,
 				DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */,
+				DED89B0F2B2F2CD1005CAB0B /* RollingDiceView.swift in Sources */,
 				DED149722B2C9125001560B3 /* Gesture.swift in Sources */,
 				DEA9B5952B29EA1E0074412E /* CarousalApp.swift in Sources */,
 				DE3CE5F72B2A805B0087181B /* CarousalCell.swift in Sources */,
