@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1921662B2E7131005B8A8E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1921652B2E7131005B8A8E /* Toast.swift */; };
-		DE3CE5F72B2A805B0087181B /* CarousalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3CE5F62B2A805B0087181B /* CarousalCell.swift */; };
-		DE48FD6F2B2E69D500A7CEA4 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */; };
-		DEA9B5952B29EA1E0074412E /* CarousalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5942B29EA1E0074412E /* CarousalApp.swift */; };
-		DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5962B29EA1E0074412E /* ContentView.swift */; };
-		DEA9B5992B29EA200074412E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B5982B29EA200074412E /* Assets.xcassets */; };
-		DEA9B59C2B29EA200074412E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */; };
-		DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B5A22B29EAB80074412E /* CarousalView.swift */; };
-		DED149722B2C9125001560B3 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1496F2B2C9125001560B3 /* Gesture.swift */; };
-		DED149732B2C9125001560B3 /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED149712B2C9125001560B3 /* ScrollTransitions.swift */; };
-		DED89B0F2B2F2CD1005CAB0B /* RollingDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */; };
+		DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D12B2FD495006CC373 /* galleryApp.swift */; };
+		DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D32B2FD495006CC373 /* ContentView.swift */; };
+		DE29B6D62B2FD497006CC373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE29B6D52B2FD497006CC373 /* Assets.xcassets */; };
+		DE29B6D92B2FD497006CC373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE29B6D82B2FD497006CC373 /* Preview Assets.xcassets */; };
+		DE29B6EC2B2FD4AF006CC373 /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E02B2FD4AF006CC373 /* ScrollTransitions.swift */; };
+		DE29B6ED2B2FD4AF006CC373 /* CarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E22B2FD4AF006CC373 /* CarousalView.swift */; };
+		DE29B6EE2B2FD4AF006CC373 /* CarousalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E32B2FD4AF006CC373 /* CarousalCell.swift */; };
+		DE29B6EF2B2FD4AF006CC373 /* RollingDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E52B2FD4AF006CC373 /* RollingDiceView.swift */; };
+		DE29B6F02B2FD4AF006CC373 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E72B2FD4AF006CC373 /* Toast.swift */; };
+		DE29B6F12B2FD4AF006CC373 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6E92B2FD4AF006CC373 /* Gesture.swift */; };
+		DE29B6F22B2FD4AF006CC373 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6EB2B2FD4AF006CC373 /* TipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE1921652B2E7131005B8A8E /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
-		DE3CE5F62B2A805B0087181B /* CarousalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalCell.swift; sourceTree = "<group>"; };
-		DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
-		DEA9B5912B29EA1E0074412E /* Carousal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA9B5942B29EA1E0074412E /* CarousalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalApp.swift; sourceTree = "<group>"; };
-		DEA9B5962B29EA1E0074412E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DEA9B5982B29EA200074412E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEA9B5A22B29EAB80074412E /* CarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalView.swift; sourceTree = "<group>"; };
-		DED1496F2B2C9125001560B3 /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
-		DED149712B2C9125001560B3 /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
-		DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingDiceView.swift; sourceTree = "<group>"; };
+		DE29B6CE2B2FD495006CC373 /* gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE29B6D12B2FD495006CC373 /* galleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryApp.swift; sourceTree = "<group>"; };
+		DE29B6D32B2FD495006CC373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE29B6D52B2FD497006CC373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE29B6D82B2FD497006CC373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE29B6E02B2FD4AF006CC373 /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
+		DE29B6E22B2FD4AF006CC373 /* CarousalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarousalView.swift; sourceTree = "<group>"; };
+		DE29B6E32B2FD4AF006CC373 /* CarousalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarousalCell.swift; sourceTree = "<group>"; };
+		DE29B6E52B2FD4AF006CC373 /* RollingDiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingDiceView.swift; sourceTree = "<group>"; };
+		DE29B6E72B2FD4AF006CC373 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		DE29B6E92B2FD4AF006CC373 /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		DE29B6EB2B2FD4AF006CC373 /* TipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEA9B58E2B29EA1E0074412E /* Frameworks */ = {
+		DE29B6CB2B2FD495006CC373 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,132 +46,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE1921642B2E712D005B8A8E /* Toast */ = {
+		DE29B6C52B2FD495006CC373 = {
 			isa = PBXGroup;
 			children = (
-				DE1921652B2E7131005B8A8E /* Toast.swift */,
-			);
-			path = Toast;
-			sourceTree = "<group>";
-		};
-		DE48FD6D2B2E69C800A7CEA4 /* Tip */ = {
-			isa = PBXGroup;
-			children = (
-				DE48FD6E2B2E69D500A7CEA4 /* TipView.swift */,
-			);
-			path = Tip;
-			sourceTree = "<group>";
-		};
-		DEA9B5882B29EA1E0074412E = {
-			isa = PBXGroup;
-			children = (
-				DEA9B5932B29EA1E0074412E /* Carousal */,
-				DEA9B5922B29EA1E0074412E /* Products */,
+				DE29B6D02B2FD495006CC373 /* gallery */,
+				DE29B6CF2B2FD495006CC373 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEA9B5922B29EA1E0074412E /* Products */ = {
+		DE29B6CF2B2FD495006CC373 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEA9B5912B29EA1E0074412E /* Carousal.app */,
+				DE29B6CE2B2FD495006CC373 /* gallery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEA9B5932B29EA1E0074412E /* Carousal */ = {
+		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
-				DED89B0D2B2F2CC1005CAB0B /* RollingDice */,
-				DE1921642B2E712D005B8A8E /* Toast */,
-				DE48FD6D2B2E69C800A7CEA4 /* Tip */,
-				DED149742B2C912A001560B3 /* Carousal */,
-				DED1496E2B2C9125001560B3 /* Gestures */,
-				DED149702B2C9125001560B3 /* ScrollTransitions */,
-				DEA9B5942B29EA1E0074412E /* CarousalApp.swift */,
-				DEA9B5962B29EA1E0074412E /* ContentView.swift */,
-				DEA9B5982B29EA200074412E /* Assets.xcassets */,
-				DEA9B59A2B29EA200074412E /* Preview Content */,
+				DE29B6E12B2FD4AF006CC373 /* Carousal */,
+				DE29B6E82B2FD4AF006CC373 /* Gestures */,
+				DE29B6E42B2FD4AF006CC373 /* RollingDice */,
+				DE29B6DF2B2FD4AF006CC373 /* ScrollTransitions */,
+				DE29B6EA2B2FD4AF006CC373 /* Tip */,
+				DE29B6E62B2FD4AF006CC373 /* Toast */,
+				DE29B6D12B2FD495006CC373 /* galleryApp.swift */,
+				DE29B6D32B2FD495006CC373 /* ContentView.swift */,
+				DE29B6D52B2FD497006CC373 /* Assets.xcassets */,
+				DE29B6D72B2FD497006CC373 /* Preview Content */,
 			);
-			path = Carousal;
+			path = gallery;
 			sourceTree = "<group>";
 		};
-		DEA9B59A2B29EA200074412E /* Preview Content */ = {
+		DE29B6D72B2FD497006CC373 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DEA9B59B2B29EA200074412E /* Preview Assets.xcassets */,
+				DE29B6D82B2FD497006CC373 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DED1496E2B2C9125001560B3 /* Gestures */ = {
+		DE29B6DF2B2FD4AF006CC373 /* ScrollTransitions */ = {
 			isa = PBXGroup;
 			children = (
-				DED1496F2B2C9125001560B3 /* Gesture.swift */,
+				DE29B6E02B2FD4AF006CC373 /* ScrollTransitions.swift */,
 			);
-			path = Gestures;
+			name = ScrollTransitions;
+			path = ../../Carousal/Carousal/ScrollTransitions;
 			sourceTree = "<group>";
 		};
-		DED149702B2C9125001560B3 /* ScrollTransitions */ = {
+		DE29B6E12B2FD4AF006CC373 /* Carousal */ = {
 			isa = PBXGroup;
 			children = (
-				DED149712B2C9125001560B3 /* ScrollTransitions.swift */,
+				DE29B6E22B2FD4AF006CC373 /* CarousalView.swift */,
+				DE29B6E32B2FD4AF006CC373 /* CarousalCell.swift */,
 			);
-			path = ScrollTransitions;
+			name = Carousal;
+			path = ../../Carousal/Carousal/Carousal;
 			sourceTree = "<group>";
 		};
-		DED149742B2C912A001560B3 /* Carousal */ = {
+		DE29B6E42B2FD4AF006CC373 /* RollingDice */ = {
 			isa = PBXGroup;
 			children = (
-				DEA9B5A22B29EAB80074412E /* CarousalView.swift */,
-				DE3CE5F62B2A805B0087181B /* CarousalCell.swift */,
+				DE29B6E52B2FD4AF006CC373 /* RollingDiceView.swift */,
 			);
-			path = Carousal;
+			name = RollingDice;
+			path = ../../Carousal/Carousal/RollingDice;
 			sourceTree = "<group>";
 		};
-		DED89B0D2B2F2CC1005CAB0B /* RollingDice */ = {
+		DE29B6E62B2FD4AF006CC373 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				DED89B0E2B2F2CD1005CAB0B /* RollingDiceView.swift */,
+				DE29B6E72B2FD4AF006CC373 /* Toast.swift */,
 			);
-			path = RollingDice;
+			name = Toast;
+			path = ../../Carousal/Carousal/Toast;
+			sourceTree = "<group>";
+		};
+		DE29B6E82B2FD4AF006CC373 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				DE29B6E92B2FD4AF006CC373 /* Gesture.swift */,
+			);
+			name = Gestures;
+			path = ../../Carousal/Carousal/Gestures;
+			sourceTree = "<group>";
+		};
+		DE29B6EA2B2FD4AF006CC373 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				DE29B6EB2B2FD4AF006CC373 /* TipView.swift */,
+			);
+			name = Tip;
+			path = ../../Carousal/Carousal/Tip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEA9B5902B29EA1E0074412E /* Carousal */ = {
+		DE29B6CD2B2FD495006CC373 /* gallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEA9B59F2B29EA200074412E /* Build configuration list for PBXNativeTarget "Carousal" */;
+			buildConfigurationList = DE29B6DC2B2FD497006CC373 /* Build configuration list for PBXNativeTarget "gallery" */;
 			buildPhases = (
-				DEA9B58D2B29EA1E0074412E /* Sources */,
-				DEA9B58E2B29EA1E0074412E /* Frameworks */,
-				DEA9B58F2B29EA1E0074412E /* Resources */,
+				DE29B6CA2B2FD495006CC373 /* Sources */,
+				DE29B6CB2B2FD495006CC373 /* Frameworks */,
+				DE29B6CC2B2FD495006CC373 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Carousal;
-			productName = Carousal;
-			productReference = DEA9B5912B29EA1E0074412E /* Carousal.app */;
+			name = gallery;
+			productName = gallery;
+			productReference = DE29B6CE2B2FD495006CC373 /* gallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEA9B5892B29EA1E0074412E /* Project object */ = {
+		DE29B6C62B2FD495006CC373 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					DEA9B5902B29EA1E0074412E = {
-						CreatedOnToolsVersion = 15.1;
+					DE29B6CD2B2FD495006CC373 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = DEA9B58C2B29EA1E0074412E /* Build configuration list for PBXProject "Carousal" */;
+			buildConfigurationList = DE29B6C92B2FD495006CC373 /* Build configuration list for PBXProject "gallery" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,49 +185,49 @@
 				en,
 				Base,
 			);
-			mainGroup = DEA9B5882B29EA1E0074412E;
-			productRefGroup = DEA9B5922B29EA1E0074412E /* Products */;
+			mainGroup = DE29B6C52B2FD495006CC373;
+			productRefGroup = DE29B6CF2B2FD495006CC373 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEA9B5902B29EA1E0074412E /* Carousal */,
+				DE29B6CD2B2FD495006CC373 /* gallery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DEA9B58F2B29EA1E0074412E /* Resources */ = {
+		DE29B6CC2B2FD495006CC373 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA9B59C2B29EA200074412E /* Preview Assets.xcassets in Resources */,
-				DEA9B5992B29EA200074412E /* Assets.xcassets in Resources */,
+				DE29B6D92B2FD497006CC373 /* Preview Assets.xcassets in Resources */,
+				DE29B6D62B2FD497006CC373 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEA9B58D2B29EA1E0074412E /* Sources */ = {
+		DE29B6CA2B2FD495006CC373 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE48FD6F2B2E69D500A7CEA4 /* TipView.swift in Sources */,
-				DE1921662B2E7131005B8A8E /* Toast.swift in Sources */,
-				DEA9B5972B29EA1E0074412E /* ContentView.swift in Sources */,
-				DEA9B5A32B29EAB80074412E /* CarousalView.swift in Sources */,
-				DED89B0F2B2F2CD1005CAB0B /* RollingDiceView.swift in Sources */,
-				DED149722B2C9125001560B3 /* Gesture.swift in Sources */,
-				DEA9B5952B29EA1E0074412E /* CarousalApp.swift in Sources */,
-				DE3CE5F72B2A805B0087181B /* CarousalCell.swift in Sources */,
-				DED149732B2C9125001560B3 /* ScrollTransitions.swift in Sources */,
+				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
+				DE29B6EF2B2FD4AF006CC373 /* RollingDiceView.swift in Sources */,
+				DE29B6EE2B2FD4AF006CC373 /* CarousalCell.swift in Sources */,
+				DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */,
+				DE29B6ED2B2FD4AF006CC373 /* CarousalView.swift in Sources */,
+				DE29B6EC2B2FD4AF006CC373 /* ScrollTransitions.swift in Sources */,
+				DE29B6F02B2FD4AF006CC373 /* Toast.swift in Sources */,
+				DE29B6F12B2FD4AF006CC373 /* Gesture.swift in Sources */,
+				DE29B6F22B2FD4AF006CC373 /* TipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEA9B59D2B29EA200074412E /* Debug */ = {
+		DE29B6DA2B2FD497006CC373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -284,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		DEA9B59E2B29EA200074412E /* Release */ = {
+		DE29B6DB2B2FD497006CC373 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -340,14 +346,14 @@
 			};
 			name = Release;
 		};
-		DEA9B5A02B29EA200074412E /* Debug */ = {
+		DE29B6DD2B2FD497006CC373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Carousal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"gallery/Preview Content\"";
 				DEVELOPMENT_TEAM = C56CF3UWG4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -356,13 +362,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kehwaweng.Carousal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.c1ayvveng.gallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -370,14 +375,14 @@
 			};
 			name = Debug;
 		};
-		DEA9B5A12B29EA200074412E /* Release */ = {
+		DE29B6DE2B2FD497006CC373 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Carousal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"gallery/Preview Content\"";
 				DEVELOPMENT_TEAM = C56CF3UWG4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -386,13 +391,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kehwaweng.Carousal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.c1ayvveng.gallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -403,25 +407,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEA9B58C2B29EA1E0074412E /* Build configuration list for PBXProject "Carousal" */ = {
+		DE29B6C92B2FD495006CC373 /* Build configuration list for PBXProject "gallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEA9B59D2B29EA200074412E /* Debug */,
-				DEA9B59E2B29EA200074412E /* Release */,
+				DE29B6DA2B2FD497006CC373 /* Debug */,
+				DE29B6DB2B2FD497006CC373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEA9B59F2B29EA200074412E /* Build configuration list for PBXNativeTarget "Carousal" */ = {
+		DE29B6DC2B2FD497006CC373 /* Build configuration list for PBXNativeTarget "gallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEA9B5A02B29EA200074412E /* Debug */,
-				DEA9B5A12B29EA200074412E /* Release */,
+				DE29B6DD2B2FD497006CC373 /* Debug */,
+				DE29B6DE2B2FD497006CC373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEA9B5892B29EA1E0074412E /* Project object */;
+	rootObject = DE29B6C62B2FD495006CC373 /* Project object */;
 }

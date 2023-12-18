@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Carousal
+//  gallery
 //
-//  Created by kehwa weng on 2023/12/13.
+//  Created by kehwa weng on 2023/12/18.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
-    }    
+    }
 }
 
 #Preview {
