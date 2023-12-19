@@ -21,6 +21,7 @@
 		DEA719662B31264A002C8A7E /* CarousalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7195A2B312649002C8A7E /* CarousalCell.swift */; };
 		DEA719672B31264A002C8A7E /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7195C2B312649002C8A7E /* ScrollTransitions.swift */; };
 		DEA719682B31264A002C8A7E /* MorphingDragEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7195E2B31264A002C8A7E /* MorphingDragEffectView.swift */; };
+		DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7B3972B31719F00807354 /* ArticleVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		DEA7195A2B312649002C8A7E /* CarousalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarousalCell.swift; sourceTree = "<group>"; };
 		DEA7195C2B312649002C8A7E /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
 		DEA7195E2B31264A002C8A7E /* MorphingDragEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphingDragEffectView.swift; sourceTree = "<group>"; };
+		DEE7B3972B31719F00807354 /* ArticleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DEE7B3952B31718C00807354 /* Article */,
 				DEA719582B312649002C8A7E /* Carousal */,
 				DEA719522B312649002C8A7E /* ColorCardGestureRotation */,
 				DEA7194E2B312649002C8A7E /* Gestures */,
@@ -169,6 +172,14 @@
 			path = MorphingDrag;
 			sourceTree = "<group>";
 		};
+		DEE7B3952B31718C00807354 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7B3972B31719F00807354 /* ArticleVIew.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
 				DEA7195F2B31264A002C8A7E /* Toast.swift in Sources */,
 				DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */,
+				DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */,
 				DEA719602B31264A002C8A7E /* Gesture.swift in Sources */,
 				DEA719652B31264A002C8A7E /* CarousalView.swift in Sources */,
 				DEA719612B31264A002C8A7E /* RollingDiceView.swift in Sources */,
