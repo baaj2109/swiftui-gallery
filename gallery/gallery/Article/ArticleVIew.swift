@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-let content: String = """
+fileprivate let content: String = """
 Full-Text Search is a technical term referred to advanced linguistic text query for a database or text documents. The search engine examines all the words stored in a document as it tries to match certain search criteria giving by the user.
 
 Many web websites depend on Full-text search to perform advanced search operations.
