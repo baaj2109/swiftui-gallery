@@ -24,9 +24,11 @@ struct DragDropView: View {
                             return NSItemProvider()
                         })
                         .onDrop(of: [.text],
-                                delegate: DropViewDelegate(destionationItem: title,
-                                                           titles: $titles,
-                                                           draggedItem: $draggedTitle)
+                                delegate: DropViewDelegate(
+                                    destionationItem: title,
+                                    titles: $titles,
+                                    draggedItem: $draggedTitle
+                                )
                         )
                 }
                 Spacer()
