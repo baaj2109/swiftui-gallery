@@ -25,6 +25,8 @@
 		DEA719672B31264A002C8A7E /* ScrollTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7195C2B312649002C8A7E /* ScrollTransitions.swift */; };
 		DEA719682B31264A002C8A7E /* MorphingDragEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7195E2B31264A002C8A7E /* MorphingDragEffectView.swift */; };
 		DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7B3972B31719F00807354 /* ArticleVIew.swift */; };
+		DEF3F11C2B3453C300FBAE33 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3F11B2B3453C300FBAE33 /* Expense.swift */; };
+		DEF3F11E2B34546C00FBAE33 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3F11D2B34546C00FBAE33 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		DEA7195C2B312649002C8A7E /* ScrollTransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTransitions.swift; sourceTree = "<group>"; };
 		DEA7195E2B31264A002C8A7E /* MorphingDragEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphingDragEffectView.swift; sourceTree = "<group>"; };
 		DEE7B3972B31719F00807354 /* ArticleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVIew.swift; sourceTree = "<group>"; };
+		DEF3F11B2B3453C300FBAE33 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		DEF3F11D2B34546C00FBAE33 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DEF3F11A2B3453A300FBAE33 /* ComplexScroll */,
 				DE2B5B752B32FD9C00A19C02 /* DragAndDrop */,
 				DEE7B3952B31718C00807354 /* Article */,
 				DEA719582B312649002C8A7E /* Carousal */,
@@ -197,6 +202,15 @@
 			path = Article;
 			sourceTree = "<group>";
 		};
+		DEF3F11A2B3453A300FBAE33 /* ComplexScroll */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3F11B2B3453C300FBAE33 /* Expense.swift */,
+				DEF3F11D2B34546C00FBAE33 /* Home.swift */,
+			);
+			path = ComplexScroll;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,11 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF3F11C2B3453C300FBAE33 /* Expense.swift in Sources */,
 				DEA719642B31264A002C8A7E /* LiquidButtonView.swift in Sources */,
 				DEA719682B31264A002C8A7E /* MorphingDragEffectView.swift in Sources */,
 				DEA719662B31264A002C8A7E /* CarousalCell.swift in Sources */,
 				DEA719632B31264A002C8A7E /* TipView.swift in Sources */,
 				DEA719622B31264A002C8A7E /* ColorCardsGestureRotationView.swift in Sources */,
+				DEF3F11E2B34546C00FBAE33 /* Home.swift in Sources */,
 				DE2B5B772B32FDAC00A19C02 /* DragDropView.swift in Sources */,
 				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
 				DEA7195F2B31264A002C8A7E /* Toast.swift in Sources */,
