@@ -9,9 +9,24 @@ import SwiftUI
 
 @main
 struct galleryApp: App {
+    @State var show = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ZStack {
+                if show {
+                    ContentView()
+                } else {
+                    LaunchView()
+                }
+            }
+            .onAppear() {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    withAnimation {
+                        show = true
+                    }
+                }
+            }
         }
     }
 }
