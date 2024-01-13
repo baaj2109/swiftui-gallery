@@ -29,6 +29,7 @@
 		DEB2B6122B52BC0B0049974B /* BorderAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6112B52BC0B0049974B /* BorderAnimationView.swift */; };
 		DEB2B6142B52BDC40049974B /* StopBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6132B52BDC40049974B /* StopBorderView.swift */; };
 		DEB2B6172B52C0BB0049974B /* AnimatedOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6162B52C0BB0049974B /* AnimatedOnboardingView.swift */; };
+		DEB2B61A2B52C4080049974B /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6192B52C4080049974B /* ToDoView.swift */; };
 		DEB9807A2B4449750083DC50 /* SearchableBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB980792B4449750083DC50 /* SearchableBar.swift */; };
 		DEBA94F32B367ABF006F1FF2 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */; };
 		DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7B3972B31719F00807354 /* ArticleVIew.swift */; };
@@ -61,6 +62,7 @@
 		DEB2B6112B52BC0B0049974B /* BorderAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAnimationView.swift; sourceTree = "<group>"; };
 		DEB2B6132B52BDC40049974B /* StopBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopBorderView.swift; sourceTree = "<group>"; };
 		DEB2B6162B52C0BB0049974B /* AnimatedOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedOnboardingView.swift; sourceTree = "<group>"; };
+		DEB2B6192B52C4080049974B /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		DEB980792B4449750083DC50 /* SearchableBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBar.swift; sourceTree = "<group>"; };
 		DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 		DEE7B3972B31719F00807354 /* ArticleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVIew.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DEB2B6182B52C3FB0049974B /* ToDo */,
 				DEB2B6152B52C09A0049974B /* AnimatedOnBoading */,
 				DEB2B6102B52BBF80049974B /* BorderAnimation */,
 				DEEC279F2B5227C6003F3EA6 /* SmoothIconTransition */,
@@ -248,6 +251,14 @@
 				DEB2B6162B52C0BB0049974B /* AnimatedOnboardingView.swift */,
 			);
 			path = AnimatedOnBoading;
+			sourceTree = "<group>";
+		};
+		DEB2B6182B52C3FB0049974B /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				DEB2B6192B52C4080049974B /* ToDoView.swift */,
+			);
+			path = ToDo;
 			sourceTree = "<group>";
 		};
 		DEB980782B4449660083DC50 /* SearchableBar */ = {
@@ -386,6 +397,7 @@
 				DE83A42D2B33BF210050523F /* DragV2View.swift in Sources */,
 				DEA719652B31264A002C8A7E /* CarousalView.swift in Sources */,
 				DEA719612B31264A002C8A7E /* RollingDiceView.swift in Sources */,
+				DEB2B61A2B52C4080049974B /* ToDoView.swift in Sources */,
 				DEA719672B31264A002C8A7E /* ScrollTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
