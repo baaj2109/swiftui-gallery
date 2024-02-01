@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE0B86612B46D0F100D71BD9 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B86602B46D0F100D71BD9 /* LaunchView.swift */; };
 		DE14C1512B44344300C5B5BB /* ScrollProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14C1502B44344300C5B5BB /* ScrollProgressView.swift */; };
+		DE206AEA2B6B255900EF361F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AE92B6B255900EF361F /* CellView.swift */; };
+		DE206AEC2B6B28DC00EF361F /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AEB2B6B28DC00EF361F /* ShareView.swift */; };
 		DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D12B2FD495006CC373 /* galleryApp.swift */; };
 		DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D32B2FD495006CC373 /* ContentView.swift */; };
 		DE29B6D62B2FD497006CC373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE29B6D52B2FD497006CC373 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		DE0B86602B46D0F100D71BD9 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		DE14C1502B44344300C5B5BB /* ScrollProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProgressView.swift; sourceTree = "<group>"; };
+		DE206AE92B6B255900EF361F /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		DE206AEB2B6B28DC00EF361F /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		DE29B6CE2B2FD495006CC373 /* gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE29B6D12B2FD495006CC373 /* galleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryApp.swift; sourceTree = "<group>"; };
 		DE29B6D32B2FD495006CC373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 			path = ScrollProgressTracker;
 			sourceTree = "<group>";
 		};
+		DE206AE82B6B252200EF361F /* SharingAndCopyLinkView */ = {
+			isa = PBXGroup;
+			children = (
+				DE206AE92B6B255900EF361F /* CellView.swift */,
+				DE206AEB2B6B28DC00EF361F /* ShareView.swift */,
+			);
+			path = SharingAndCopyLinkView;
+			sourceTree = "<group>";
+		};
 		DE29B6C52B2FD495006CC373 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +132,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DE206AE82B6B252200EF361F /* SharingAndCopyLinkView */,
 				DEB040E32B5F4A61009F92F0 /* ShimmerEffect */,
 				DEB2B6182B52C3FB0049974B /* ToDo */,
 				DEB2B6152B52C09A0049974B /* AnimatedOnBoading */,
@@ -383,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE206AEC2B6B28DC00EF361F /* ShareView.swift in Sources */,
 				DEF3F11C2B3453C300FBAE33 /* Expense.swift in Sources */,
 				DEEC27A12B5227DD003F3EA6 /* IconTransition.swift in Sources */,
 				DE0B86612B46D0F100D71BD9 /* LaunchView.swift in Sources */,
@@ -395,6 +410,7 @@
 				DEF3F11E2B34546C00FBAE33 /* Home.swift in Sources */,
 				DEB2B6142B52BDC40049974B /* StopBorderView.swift in Sources */,
 				DE2B5B772B32FDAC00A19C02 /* DragDropView.swift in Sources */,
+				DE206AEA2B6B255900EF361F /* CellView.swift in Sources */,
 				DEBA94F32B367ABF006F1FF2 /* ThemeChangeView.swift in Sources */,
 				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
 				DE14C1512B44344300C5B5BB /* ScrollProgressView.swift in Sources */,
