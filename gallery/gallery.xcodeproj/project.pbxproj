@@ -14,6 +14,7 @@
 		DE206AEF2B6B2E1200EF361F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AEE2B6B2E1200EF361F /* GridView.swift */; };
 		DE206AF22B6B356F00EF361F /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AF12B6B356F00EF361F /* CustomAlertView.swift */; };
 		DE206AF52B6B3C2C00EF361F /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AF42B6B3C2C00EF361F /* FloatingButtonView.swift */; };
+		DE206AF82B6B3FB300EF361F /* ComplexSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE206AF72B6B3FB300EF361F /* ComplexSideMenuView.swift */; };
 		DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D12B2FD495006CC373 /* galleryApp.swift */; };
 		DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29B6D32B2FD495006CC373 /* ContentView.swift */; };
 		DE29B6D62B2FD497006CC373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE29B6D52B2FD497006CC373 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		DE206AEE2B6B2E1200EF361F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		DE206AF12B6B356F00EF361F /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		DE206AF42B6B3C2C00EF361F /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
+		DE206AF72B6B3FB300EF361F /* ComplexSideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexSideMenuView.swift; sourceTree = "<group>"; };
 		DE29B6CE2B2FD495006CC373 /* gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE29B6D12B2FD495006CC373 /* galleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryApp.swift; sourceTree = "<group>"; };
 		DE29B6D32B2FD495006CC373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			path = FloatingButton;
 			sourceTree = "<group>";
 		};
+		DE206AF62B6B3FA100EF361F /* ComplexSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DE206AF72B6B3FB300EF361F /* ComplexSideMenuView.swift */,
+			);
+			path = ComplexSideMenu;
+			sourceTree = "<group>";
+		};
 		DE29B6C52B2FD495006CC373 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DE206AF62B6B3FA100EF361F /* ComplexSideMenu */,
 				DE206AF32B6B3C1C00EF361F /* FloatingButton */,
 				DE206AF02B6B355D00EF361F /* CustomAlert */,
 				DE206AED2B6B2DF200EF361F /* DaynamicLazyVGrid */,
@@ -439,6 +450,7 @@
 				DEB2B6122B52BC0B0049974B /* BorderAnimationView.swift in Sources */,
 				DEA719662B31264A002C8A7E /* CarousalCell.swift in Sources */,
 				DEA719632B31264A002C8A7E /* TipView.swift in Sources */,
+				DE206AF82B6B3FB300EF361F /* ComplexSideMenuView.swift in Sources */,
 				DEA719622B31264A002C8A7E /* ColorCardsGestureRotationView.swift in Sources */,
 				DEF3F11E2B34546C00FBAE33 /* Home.swift in Sources */,
 				DEB2B6142B52BDC40049974B /* StopBorderView.swift in Sources */,
