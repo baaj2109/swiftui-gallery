@@ -109,16 +109,10 @@ struct ArticleVIew: View {
         .frame(maxWidth:.infinity, maxHeight: .infinity)
     }
     @ViewBuilder
-    func ArticleTextView(
-        text: String,
-        isBold: Bool = true,
-        size: CGFloat
-    ) -> some View {
+    func ArticleTextView(text: String, isBold: Bool = true, size: CGFloat) -> some View {
         Text(text)
             .font(.custom(isBold ? "ArialRoundedMTBold" : "ArialRoundMT", size: size))
-
     }
-    
 }
 
 #Preview {

@@ -39,6 +39,9 @@
 		DEB2B61A2B52C4080049974B /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6192B52C4080049974B /* ToDoView.swift */; };
 		DEB9807A2B4449750083DC50 /* SearchableBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB980792B4449750083DC50 /* SearchableBar.swift */; };
 		DEBA94F32B367ABF006F1FF2 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */; };
+		DEDECD022B73AE1400F964C8 /* TabBarM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD012B73AE1400F964C8 /* TabBarM.swift */; };
+		DEDECD042B73AED200F964C8 /* TabBarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD032B73AED200F964C8 /* TabBarShapeView.swift */; };
+		DEDECD062B73B04F00F964C8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD052B73B04F00F964C8 /* CustomTabBarView.swift */; };
 		DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7B3972B31719F00807354 /* ArticleVIew.swift */; };
 		DEEC27A12B5227DD003F3EA6 /* IconTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC27A02B5227DD003F3EA6 /* IconTransition.swift */; };
 		DEF3F11C2B3453C300FBAE33 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3F11B2B3453C300FBAE33 /* Expense.swift */; };
@@ -79,6 +82,9 @@
 		DEB2B6192B52C4080049974B /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		DEB980792B4449750083DC50 /* SearchableBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBar.swift; sourceTree = "<group>"; };
 		DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
+		DEDECD012B73AE1400F964C8 /* TabBarM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarM.swift; sourceTree = "<group>"; };
+		DEDECD032B73AED200F964C8 /* TabBarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShapeView.swift; sourceTree = "<group>"; };
+		DEDECD052B73B04F00F964C8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		DEE7B3972B31719F00807354 /* ArticleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVIew.swift; sourceTree = "<group>"; };
 		DEEC27A02B5227DD003F3EA6 /* IconTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTransition.swift; sourceTree = "<group>"; };
 		DEF3F11B2B3453C300FBAE33 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
@@ -172,6 +178,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DEDECD002B73ADF900F964C8 /* CustomTabBarShape */,
 				DE206AF62B6B3FA100EF361F /* ComplexSideMenu */,
 				DE206AF32B6B3C1C00EF361F /* FloatingButton */,
 				DE206AF02B6B355D00EF361F /* CustomAlert */,
@@ -346,6 +353,16 @@
 			path = ThemeChange;
 			sourceTree = "<group>";
 		};
+		DEDECD002B73ADF900F964C8 /* CustomTabBarShape */ = {
+			isa = PBXGroup;
+			children = (
+				DEDECD012B73AE1400F964C8 /* TabBarM.swift */,
+				DEDECD032B73AED200F964C8 /* TabBarShapeView.swift */,
+				DEDECD052B73B04F00F964C8 /* CustomTabBarView.swift */,
+			);
+			path = CustomTabBarShape;
+			sourceTree = "<group>";
+		};
 		DEE7B3952B31718C00807354 /* Article */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,15 +476,18 @@
 				DEBA94F32B367ABF006F1FF2 /* ThemeChangeView.swift in Sources */,
 				DE206AF52B6B3C2C00EF361F /* FloatingButtonView.swift in Sources */,
 				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
+				DEDECD062B73B04F00F964C8 /* CustomTabBarView.swift in Sources */,
 				DE14C1512B44344300C5B5BB /* ScrollProgressView.swift in Sources */,
 				DEB9807A2B4449750083DC50 /* SearchableBar.swift in Sources */,
 				DEB2B6172B52C0BB0049974B /* AnimatedOnboardingView.swift in Sources */,
 				DEA7195F2B31264A002C8A7E /* Toast.swift in Sources */,
+				DEDECD022B73AE1400F964C8 /* TabBarM.swift in Sources */,
 				DE2B5B792B32FF5900A19C02 /* DropViewDelegate.swift in Sources */,
 				DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */,
 				DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */,
 				DEA719602B31264A002C8A7E /* Gesture.swift in Sources */,
 				DE206AEF2B6B2E1200EF361F /* GridView.swift in Sources */,
+				DEDECD042B73AED200F964C8 /* TabBarShapeView.swift in Sources */,
 				DE83A42D2B33BF210050523F /* DragV2View.swift in Sources */,
 				DEA719652B31264A002C8A7E /* CarousalView.swift in Sources */,
 				DEA719612B31264A002C8A7E /* RollingDiceView.swift in Sources */,
