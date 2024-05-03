@@ -39,6 +39,12 @@
 		DEB2B61A2B52C4080049974B /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B6192B52C4080049974B /* ToDoView.swift */; };
 		DEB9807A2B4449750083DC50 /* SearchableBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB980792B4449750083DC50 /* SearchableBar.swift */; };
 		DEBA94F32B367ABF006F1FF2 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */; };
+		DED8B18F2BE46EF6000E177B /* LedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B18E2BE46EF6000E177B /* LedContentView.swift */; };
+		DED8B1912BE47846000E177B /* SmallLed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B1902BE47846000E177B /* SmallLed.swift */; };
+		DED8B1932BE47926000E177B /* SelectionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B1922BE47926000E177B /* SelectionString.swift */; };
+		DED8B1952BE47E71000E177B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B1942BE47E71000E177B /* SettingView.swift */; };
+		DED8B1972BE4831A000E177B /* SelectionCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B1962BE4831A000E177B /* SelectionCGFloat.swift */; };
+		DED8B1992BE483A8000E177B /* LedHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED8B1982BE483A8000E177B /* LedHomeView.swift */; };
 		DEDECD022B73AE1400F964C8 /* TabBarM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD012B73AE1400F964C8 /* TabBarM.swift */; };
 		DEDECD042B73AED200F964C8 /* TabBarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD032B73AED200F964C8 /* TabBarShapeView.swift */; };
 		DEDECD062B73B04F00F964C8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDECD052B73B04F00F964C8 /* CustomTabBarView.swift */; };
@@ -82,6 +88,12 @@
 		DEB2B6192B52C4080049974B /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		DEB980792B4449750083DC50 /* SearchableBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBar.swift; sourceTree = "<group>"; };
 		DEBA94F22B367ABF006F1FF2 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
+		DED8B18E2BE46EF6000E177B /* LedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedContentView.swift; sourceTree = "<group>"; };
+		DED8B1902BE47846000E177B /* SmallLed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallLed.swift; sourceTree = "<group>"; };
+		DED8B1922BE47926000E177B /* SelectionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionString.swift; sourceTree = "<group>"; };
+		DED8B1942BE47E71000E177B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DED8B1962BE4831A000E177B /* SelectionCGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCGFloat.swift; sourceTree = "<group>"; };
+		DED8B1982BE483A8000E177B /* LedHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedHomeView.swift; sourceTree = "<group>"; };
 		DEDECD012B73AE1400F964C8 /* TabBarM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarM.swift; sourceTree = "<group>"; };
 		DEDECD032B73AED200F964C8 /* TabBarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShapeView.swift; sourceTree = "<group>"; };
 		DEDECD052B73B04F00F964C8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -178,6 +190,7 @@
 		DE29B6D02B2FD495006CC373 /* gallery */ = {
 			isa = PBXGroup;
 			children = (
+				DED8B18D2BE46D5C000E177B /* LedText */,
 				DEDECD002B73ADF900F964C8 /* CustomTabBarShape */,
 				DE206AF62B6B3FA100EF361F /* ComplexSideMenu */,
 				DE206AF32B6B3C1C00EF361F /* FloatingButton */,
@@ -353,6 +366,19 @@
 			path = ThemeChange;
 			sourceTree = "<group>";
 		};
+		DED8B18D2BE46D5C000E177B /* LedText */ = {
+			isa = PBXGroup;
+			children = (
+				DED8B18E2BE46EF6000E177B /* LedContentView.swift */,
+				DED8B1902BE47846000E177B /* SmallLed.swift */,
+				DED8B1922BE47926000E177B /* SelectionString.swift */,
+				DED8B1942BE47E71000E177B /* SettingView.swift */,
+				DED8B1982BE483A8000E177B /* LedHomeView.swift */,
+				DED8B1962BE4831A000E177B /* SelectionCGFloat.swift */,
+			);
+			path = LedText;
+			sourceTree = "<group>";
+		};
 		DEDECD002B73ADF900F964C8 /* CustomTabBarShape */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,9 +491,12 @@
 				DEA719642B31264A002C8A7E /* LiquidButtonView.swift in Sources */,
 				DEA719682B31264A002C8A7E /* MorphingDragEffectView.swift in Sources */,
 				DEB2B6122B52BC0B0049974B /* BorderAnimationView.swift in Sources */,
+				DED8B1952BE47E71000E177B /* SettingView.swift in Sources */,
 				DEA719662B31264A002C8A7E /* CarousalCell.swift in Sources */,
 				DEA719632B31264A002C8A7E /* TipView.swift in Sources */,
+				DED8B1992BE483A8000E177B /* LedHomeView.swift in Sources */,
 				DE206AF82B6B3FB300EF361F /* ComplexSideMenuView.swift in Sources */,
+				DED8B18F2BE46EF6000E177B /* LedContentView.swift in Sources */,
 				DEA719622B31264A002C8A7E /* ColorCardsGestureRotationView.swift in Sources */,
 				DEF3F11E2B34546C00FBAE33 /* Home.swift in Sources */,
 				DEB2B6142B52BDC40049974B /* StopBorderView.swift in Sources */,
@@ -477,6 +506,7 @@
 				DE206AF52B6B3C2C00EF361F /* FloatingButtonView.swift in Sources */,
 				DE29B6D42B2FD495006CC373 /* ContentView.swift in Sources */,
 				DEDECD062B73B04F00F964C8 /* CustomTabBarView.swift in Sources */,
+				DED8B1972BE4831A000E177B /* SelectionCGFloat.swift in Sources */,
 				DE14C1512B44344300C5B5BB /* ScrollProgressView.swift in Sources */,
 				DEB9807A2B4449750083DC50 /* SearchableBar.swift in Sources */,
 				DEB2B6172B52C0BB0049974B /* AnimatedOnboardingView.swift in Sources */,
@@ -486,6 +516,7 @@
 				DE29B6D22B2FD495006CC373 /* galleryApp.swift in Sources */,
 				DEE7B3982B31719F00807354 /* ArticleVIew.swift in Sources */,
 				DEA719602B31264A002C8A7E /* Gesture.swift in Sources */,
+				DED8B1912BE47846000E177B /* SmallLed.swift in Sources */,
 				DE206AEF2B6B2E1200EF361F /* GridView.swift in Sources */,
 				DEDECD042B73AED200F964C8 /* TabBarShapeView.swift in Sources */,
 				DE83A42D2B33BF210050523F /* DragV2View.swift in Sources */,
@@ -493,6 +524,7 @@
 				DEA719612B31264A002C8A7E /* RollingDiceView.swift in Sources */,
 				DEB2B61A2B52C4080049974B /* ToDoView.swift in Sources */,
 				DEA719672B31264A002C8A7E /* ScrollTransitions.swift in Sources */,
+				DED8B1932BE47926000E177B /* SelectionString.swift in Sources */,
 				DE206AF22B6B356F00EF361F /* CustomAlertView.swift in Sources */,
 				DEB040E52B5F4A86009F92F0 /* ShimmerEffectView.swift in Sources */,
 			);
